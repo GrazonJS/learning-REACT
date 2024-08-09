@@ -1,0 +1,42 @@
+.about {
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  align-items: center;
+}
+.about-left {
+  flex-basis: 40%;
+  position: relative;
+}
+.about-right {
+  flex-basis: 56%;
+}
+.about-img {
+  width: 100%;
+  border-radius: 10px;
+}
+.play-icon {
+  width: 60px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.about h3 {
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.about h2 {
+  font-weight: 600;
+  font-size: 36px;
+  margin: 10px 0;
+  max-width: 800px;
+}
+.about p {
+  font-size: 18px;
+  color: gray;
+  line-height: 1.4;
+  margin: 10px 0;
+}
